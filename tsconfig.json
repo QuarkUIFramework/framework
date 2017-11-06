@@ -1,15 +1,35 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "target": "es5",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": true,
+    "noFallthroughCasesInSwitch": true,
     "module": "commonjs",
     "noImplicitAny": true,
-    "noLib": true,
+    "noLib": false,
     "typeRoots": [
-      "node_modules/@types",
-      "node_modules"
+      "./node_modules/@types",
+      "./node_modules"
     ],
     "types": [
       "node"
     ]
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "src"
+  ]
 }
