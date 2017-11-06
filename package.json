@@ -1,0 +1,17 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Elementary set of UI Components",
+  "main": "index.js",
+  "repository": "https://github.com/QuarkUIFramework/framework.git",
+  "author": "SaoBiz <alexgrech01@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gulp": "^3.8.34",
+    "@types/node": "^8.0.47",
+    "gulp": "^3.9.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
