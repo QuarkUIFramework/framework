@@ -9,9 +9,21 @@
   "devDependencies": {
     "@types/gulp": "^3.8.34",
     "@types/node": "^8.0.47",
+    "@types/run-sequence": "^0.0.29",
+    "@types/yargs": "^8.0.2",
     "gulp": "^3.9.1",
+    "run-sequence": "^2.2.0",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.1"
+    "tslint-consistent-codestyle": "^1.9.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": "^2.6.1",
+    "vrsource-tslint-rules": "^5.8.0",
+    "yargs": "^10.0.3"
+  },
+  "dependencies": {
+    "@types/reflect-metadata": "^0.0.5",
+    "reflect-metadata": "^0.1.10"
   }
 }
