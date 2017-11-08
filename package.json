@@ -23,7 +23,6 @@
     "yargs": "^10.0.3"
   },
   "dependencies": {
-    "@types/reflect-metadata": "^0.0.5",
     "reflect-metadata": "^0.1.10"
   }
 }

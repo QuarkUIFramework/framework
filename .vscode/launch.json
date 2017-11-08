@@ -7,10 +7,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/tools\\debug.ts",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
+            "name": "Debug Task (Current File)",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node",
+            "runtimeArgs": [
+              "${workspaceFolder}/tools/debug.ts",
+              "--task",
+              "${fileBasenameNoExtension}"
             ]
         }
     ]

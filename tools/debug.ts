@@ -2,6 +2,8 @@ import { argv } from 'yargs';
 import * as runsequence from 'run-sequence';
 import * as gulp from 'gulp';
 
+import '../gulpfile';
+
 const task = argv['task'];
 if (!task) {
   throw new Error('You must supply a task name');
